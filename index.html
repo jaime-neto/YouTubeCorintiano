@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Corintiano</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/player.js"></script>
+</head>
+<body>
+    
+    <div class="logo">
+        <img src="/screenshot/logo.jpg" alt="img" height="50">
+        <h3>Corintiano</h3>
+    </div>
+
+    <div class="player">
+        <video controls width="520" height="400"  loop id="video">
+            <source src="videos/Guerrero_contra_chelsea.mp4" type="video/mp4">
+            <track id="legenda" kind="subtitles" srclang="pt-br" label="PT-BR" src="legendas/guerrero.vtt"></track>
+        </video>
+        <h3 id="nomeVideo">Paolo Guerrero mundial de clubes 2012 contra o Chelsea (Legendado)</h3>
+        <canvas id="canvas"></canvas>
+        <div id="imgs"></div>
+    </div>
+
+    <h3 class="sugestao">Recomendado</h3>
+    <div class="screenshot">     
+    
+        <div>
+        <a onclick="guerrero()">
+            <img class="guerrero" src="screenshot/guerrero.png" alt="imagem" width="240" height="130">
+            <div class="texto1">Paolo Guerrero mundial de clubes 2012 contra o Chelsea (Legendado)</div> 
+        </a>
+        </div>
+
+        <div>
+        <a onclick="romarinho()">
+            <img src="screenshot/romarinho.png" alt="imagem" width="240" height="130">
+            <div class="texto2">Romarinho libertadores 2012 contra o Boca</div> 
+        </a>
+        </div>
+
+        <div>
+        <a onclick="ronaldo()">
+            <img class="ronaldo" src="screenshot/ronaldo.png" alt="imagem" width="240" height="130">
+            <div class="texto3">Ronaldo final do paulista contra o Santos</div>
+        </a>
+        </div>
+
+        <div>
+        <a onclick="sheik()">
+            <img class="sheik" src="screenshot/sheik.png" alt="imagem" width="240" height="130">
+            <div class="texto4">Sheike semi-final libertadores contra o Santos</div>
+        </a> 
+        </div>
+  
+    </div>    
+</body>
+</html>

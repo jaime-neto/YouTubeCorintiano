@@ -1,0 +1,69 @@
+body{
+    background: black;
+}
+
+.logo{
+    position: absolute;
+    color: white;
+    display: flex;
+    top: 5%;
+    left: 15%;
+}
+
+.player{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+    width: 505px;
+}
+
+.controles{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+#video{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#imgs{
+    position: absolute;
+    top: 40%;
+    width: 505px;
+    left: 105%;
+}
+
+#canvas{
+    position: absolute;
+    top: 05%;
+    left: 105%;
+}
+
+.screenshot{
+    position: absolute;
+    top: 100%;
+    left: 11%;
+    width: 1000px;
+    cursor: pointer;
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.screenshot > div{
+    margin: 8px;
+}
+
+.sugestao{
+    position: absolute;
+    top: 90%;  
+    left: 11%;
+    color: white;
+}
